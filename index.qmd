@@ -36,12 +36,6 @@ include-in-header:
 
 ## Background
 
-::: {.callout}
-
-Depending on the set-up of the workshop, I might introduce myself at another time and drop this slide.
-
-:::
-
 ::: {.incremental}
 
 - Assistant professor of urban design and analytics
