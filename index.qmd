@@ -1,0 +1,102 @@
+---
+title: "momex"
+subtitle: "Towards a cross-language infrastructure for</br>urban morphometrics"
+author:
+  - name: "Claudiu Forgaci"
+    orcid: 0000-0003-3218-5102
+    email: C.Forgaci@tudelft.nl
+    affiliations:
+      - ref: tud
+affiliations:
+  - id: tud
+    name: Delft University of Technology
+
+format:
+  revealjs:
+    slide-number: true
+---
+
+## Background
+
+- Assistant professor of urban design and analytics
+- Coordinator of Spatial Data & GIS education
+- Co-founder of the [Rbanism community](https://rbanism.org)
+- Author of the geospatial R packages [`rcrisp`](https://cityriverspaces.github.io/rcrisp/), [`rcoins`](https://cityriverspaces.github.io/rcoins/), and [`visor`](https://cityriverspaces.github.io/visor/)
+
+## Motivation
+
+::: {.incremental}
+
+* Conducting urban morphological research, aware of the direction of the field and its broad applicability
+* Often having to switch between R and Python: very few users are willing to deal with the friction
+* Rbanism - automation, reproducibility and scalability in urbanism research with R
+
+:::
+
+## Context
+
+* Idea after SDSL2024: why not build a cross-language infrastructure around `momepy`
+* Explored wrapping, porting and low-level implementation approach
+
+## Two proposals
+
+* **`momer`**: extending `momepy` to R users (R wrapper)
+* **`mome(rs)`**: cross-language infrastructure for urban morphometrics (low-level implementation in Rust)
+
+---
+
+### `momer`: extending `momepy` to R users (wrapper)
+
+* Why:
+  * the potential of `momepy` reaches beyond Python, and its adoption in the broader scientific community and practice could be significantly enhanced by integrating it with R
+  * can activate a cross-language morphometrics community in preparation for low-level cross-language infrastructure (see `mome(rs)`)
+
+* What:
+  * An R package wrapping `momepy` with `reticulate` in an `sf`-compatible way and with mirrored documentation.
+---
+
+### `momer`: extending `momepy` to R users (wrapper)
+
+::: {.incremental}
+
+* [ISC grant](https://r-consortium.org/all-projects/callforproposals.html) proposal to be submitted before 1 October
+* [Proposal drafted](https://cforgaci.github.io/momer/isc-proposal.pdf) and requesting budget for 1-year max. 0,4FTE funding of RSE time.
+* We are seeking feedback and support:
+  * Community support: Rbanism &#9989;, r-spatial &#x2753;, geocompr &#x2753;, ISUF &#x2753;, and SDSL &#x2753; communities
+  * Feedback on the proposal
+  * Feedback from ISC
+:::
+
+---
+
+### `momers` (or simply `mome`): cross-language infrastructure for urban morphometrics
+
+::: {.incremental}
+
+* Why?
+  * To enable the broader scientific community and practice to conduct morphological analyses in a scalable way beyond language boundaries.
+
+* What?
+  * A Rust crate implementing core urban morphometric functions and algorithms, with bindings for Python and R
+
+:::
+
+---
+
+### `momers` (or simply `mome`): cross-language infrastructure for urban morphometrics
+
+* [OEC2025](https://www.esciencecenter.nl/calls-for-proposals/open-escience-call-oec-2025/) proposal to be submitted before 13 October
+* Proposal work in progress by [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/), [Claudiu Forgaci](https://urbandesigntudelft.nl/team/claudiu-forgaci/) and [Jiong Wang](https://research.utwente.nl/en/persons/jiong-wang)
+* Seeking: community support and international co-applicants, possibly with a scientific case
+
+## Two scientific cases
+
+1. Morphology-based procedural city generation (building on [Post 2024](https://resolver.tudelft.nl/uuid:d6dc629c-c75e-4578-b1a1-8ac741133751)) <!-- TODO one sentence description of the scientific challenge for speaker notes -->
+
+2. Global morpho-typology of urban river spaces (building on [Forgaci et al. 2025](https://www.isuf2025.org/wp-content/uploads/2025/07/book_of_abstract_15-07-2025.pdf#page=89)) <!-- TODO one sentence description of the scientific challenge for speaker notes -->
+
+3. 
+
+
+
+
