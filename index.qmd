@@ -63,7 +63,7 @@ include-in-header:
 ## Two proposals
 
 * **`momer`**: extending `momepy` to R users (R wrapper)
-* **`mome(rs)`**: cross-language infrastructure for urban morphometrics (low-level implementation in Rust)
+* **`mome(.rs)`**: cross-language infrastructure for urban morphometrics (low-level implementation in Rust)
 
 ---
 
