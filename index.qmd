@@ -12,14 +12,16 @@ author:
     email: H.Ledoux@tudelft.nl
     affiliations:
       - ref: tud
-  - name: "DCC RSE ?"
-    orcid: 0000-0000-0000-0000
-    email: dcc.rse@tudelft.nl
+  - name: "Elviss Dvinskis"
+    # orcid: 0000-0000-0000-0000
+    email: E.Dvinskis@tudelft.nl
     affiliations:
-      - ref: tud
+      - ref: dcc
 affiliations:
   - id: tud
     name: Delft University of Technology
+  - id: dcc
+    name: Digital Competence Center
 format:
   revealjs:
     slide-number: true
@@ -100,7 +102,7 @@ Depending on the set-up of the workshop, I might introduce myself at another tim
 
 ---
 
-### `momers` (or simply `mome`): cross-language infrastructure for urban morphometrics
+### `mome.rs` (or simply `mome`): cross-language infrastructure for urban morphometrics
 
 ::: {.callout}
 
@@ -111,10 +113,11 @@ The OEC project can be still called `momex`, but we should align as much as poss
 ::: {.incremental}
 
 * Why?
-  * To enable the broader scientific community and practice to conduct morphological analyses in a scalable way beyond language boundaries.
+  * To enable the broader scientific community and practice to conduct morphological analyses in a scalable way.
+  * Developers benefit from a low-level code base that is easily maintainable and serves multiple languages.
 
 * What?
-  * A Rust crate implementing core urban morphometric functions and algorithms, with bindings for `momepy`, `momer`<span class="fragment">, `mome.jl`, etc.</span>
+  * A Rust crate implementing core urban morphometric functions and algorithms, building on existing infrastructure (e.g., GeoRust, polars), with bindings for `momepy`, `momer`<span class="fragment">, `mome.jl`, etc.</span>
 
 :::
 
@@ -125,6 +128,12 @@ The OEC project can be still called `momex`, but we should align as much as poss
 * [OEC2025](https://www.esciencecenter.nl/calls-for-proposals/open-escience-call-oec-2025/) proposal to be submitted before 13 October
 * Proposal work in progress by [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/), [Claudiu Forgaci](https://urbandesigntudelft.nl/team/claudiu-forgaci/) and [Jiong Wang](https://research.utwente.nl/en/persons/jiong-wang)
 * Seeking: community support and international co-applicants, possibly with a scientific case
+
+::: {.callout}
+
+testing, some time commitment (1-2 hours per week?), no money, acknowledge that it is important for you.
+
+:::
 
 ## Two scientific cases
 
