@@ -35,6 +35,35 @@ include-in-header:
 
 :::
 
+## Background
+
+::: {layout-ncol=5 .caption}
+
+![](img/blank-white.webp)
+
+![](img/blank-white.webp)
+
+![Claudiu Forgaci<br>TU Delft](img/claudiu.webp)
+
+![Elviss Dvinskis<br>TU Delft, DCC](img/elviss.webp)
+
+![](img/blank-white.webp)
+
+![](img/blank-white.webp)
+
+![Hugo Ledoux<br>TU Delft](img/hugo.webp)
+
+![](img/blank-white.webp)
+
+![Jiong Wang, UTwente](img/jon.webp)
+
+![](img/blank-white.webp)
+
+![](img/blank-white.webp)
+
+:::
+
+
 ## What is `momex`?
 
 ::: {.incremental}
@@ -163,19 +192,19 @@ Being involved as co-applicant entails some time commitment (1-2 hours per week)
 
 ![](img/blank.webp)
 
-![Claudiu Forgaci](img/claudiu.webp)
+![Claudiu Forgaci<br>TU Delft](img/claudiu.webp)
 
-![Elviss Dvinskis](img/elviss.webp)
-
-![](img/blank.webp)
+![Elviss Dvinskis<br>TU Delft, DCC](img/elviss.webp)
 
 ![](img/blank.webp)
 
-![Hugo Ledoux](img/hugo.webp)
+![](img/blank.webp)
+
+![Hugo Ledoux<br>TU Delft](img/hugo.webp)
 
 ![](img/blank.webp)
 
-![Jiong Wang](img/jon.webp)
+![Jiong Wang, UTwente](img/jon.webp)
 
 ![](img/blank.webp)
 
