@@ -134,7 +134,7 @@ include-in-header:
 * [OEC2025](https://www.esciencecenter.nl/calls-for-proposals/open-escience-call-oec-2025/) proposal to be submitted before 13 October
 * Proposal work in progress by [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/) (lead applicant), [Claudiu Forgaci](https://urbandesigntudelft.nl/team/claudiu-forgaci/) and [Jiong Wang](https://research.utwente.nl/en/persons/jiong-wang)
 * **We are seeking**:
-  * 👊 Community support (confirming relevance, importance and impact)
+  * 👊 Community support (confirming importance, feasibility and impact)
   * 🫵 International co-applicants
   * 🛠️ Contributing to development
   * 📌 Proposing a scientific case
