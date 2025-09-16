@@ -1,6 +1,6 @@
 ---
 title: "momex"
-subtitle: "Towards a cross-language infrastructure for</br>urban morphometrics"
+subtitle: "Towards a cross-language infrastructure for</br>urban morphometrics<br><br>17 September, SDSL 2025"
 author:
   - name: "Claudiu Forgaci"
     orcid: 0000-0003-3218-5102
@@ -10,6 +10,8 @@ author:
 affiliations:
   - id: tud
     name: Delft University of Technology
+title-slide-attributes:
+  data-background-color: "#427996"
 format:
   revealjs:
     slide-number: true
