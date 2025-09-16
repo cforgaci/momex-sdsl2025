@@ -10,8 +10,6 @@
   <meta name="generator" content="quarto-1.6.42">
 
   <meta name="author" content="Claudiu Forgaci">
-  <meta name="author" content="Hugo Ledoux">
-  <meta name="author" content="Elviss Dvinskis">
   <title>momex</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -31,7 +29,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-2f366650f320edcfcf53d73c80250a32.css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-68dc457c2f4e289a44fb71dffdd6bb84.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -125,7 +123,7 @@
   </style>
   <style type="text/css">
   ul li ul li {
-    font-size: 0.8em;
+    font-size: 0.75em;
   }
   </style>
 </head>
@@ -149,79 +147,57 @@ Claudiu Forgaci <a href="https://orcid.org/0000-0003-3218-5102" class="quarto-ti
             Delft University of Technology
           </p>
     </div>
-<div class="quarto-title-author">
-<div class="quarto-title-author-name">
-Hugo Ledoux <a href="https://orcid.org/0000-0002-1251-8654" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
-</div>
-<div class="quarto-title-author-email">
-<a href="mailto:H.Ledoux@tudelft.nl">H.Ledoux@tudelft.nl</a>
-</div>
-        <p class="quarto-title-affiliation">
-            Delft University of Technology
-          </p>
-    </div>
-<div class="quarto-title-author">
-<div class="quarto-title-author-name">
-Elviss Dvinskis 
-</div>
-<div class="quarto-title-author-email">
-<a href="mailto:E.Dvinskis@tudelft.nl">E.Dvinskis@tudelft.nl</a>
-</div>
-        <p class="quarto-title-affiliation">
-            Digital Competence Center
-          </p>
-    </div>
 </div>
 
 </section>
 <section id="background" class="slide level2">
 <h2>Background</h2>
+
+<img data-src="img/background.png" class="quarto-figure quarto-figure-center r-stretch"><aside class="notes">
+<ul>
+<li>academic profile, conducting urban morphological research, aware of the direction of the field and its broad applicability</li>
+<li>developer of R packages… rcoins is an R port and adaptation of the momepy implementation of the COINS alogrithm</li>
+<li>Rbanism community building - automation, reproducibility and scalability in urbanism research with R … first R… then less strict, Python too… few users are willing to switch language</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="what-is-momex" class="slide level2">
+<h2>What is <code>momex</code>?</h2>
 <div>
 <ul>
-<li class="fragment">Assistant professor of urban design and analytics</li>
-<li class="fragment">Coordinator of Spatial Data &amp; GIS education</li>
-<li class="fragment">Co-founder of the <a href="https://rbanism.org">Rbanism community</a></li>
-<li class="fragment">Author of the geospatial R packages <a href="https://cityriverspaces.github.io/rcrisp/"><code>rcrisp</code></a>, <a href="https://cityriverspaces.github.io/rcoins/"><code>rcoins</code></a>, and <a href="https://cityriverspaces.github.io/visor/"><code>visor</code></a></li>
+<li class="fragment"><p>Idea after SDSL 2024: why not build a cross-language infrastructure on <code>momepy</code>?</p></li>
+<li class="fragment"><p>Considered wrapping, porting and low-level implementation approach</p></li>
+<li class="fragment"><p>Two proposals:</p>
+<ol type="1">
+<li class="fragment"><strong><code>momer</code></strong>: extending <code>momepy</code> to R users (R wrapper)</li>
+<li class="fragment"><strong><code>mome(.rs)</code></strong>: cross-language infrastructure for urban morphometrics (low-level implementation in Rust)</li>
+</ol></li>
 </ul>
 </div>
-</section>
-<section id="motivation" class="slide level2">
-<h2>Motivation</h2>
-<div>
-<ul>
-<li class="fragment">Conducting urban morphological research, aware of the direction of the field and its broad applicability</li>
-<li class="fragment">Often having to switch between R and Python: very few users are willing to deal with the friction</li>
-<li class="fragment">Rbanism - automation, reproducibility and scalability in urbanism research with R</li>
-</ul>
-</div>
-</section>
-<section id="context" class="slide level2">
-<h2>Context</h2>
-<ul>
-<li>Idea after SDSL2024: why not build a cross-language infrastructure around <code>momepy</code>?</li>
-<li>Explored wrapping, porting and low-level implementation approach</li>
-</ul>
-</section>
-<section id="two-proposals" class="slide level2">
-<h2>Two proposals</h2>
-<ul>
-<li><strong><code>momer</code></strong>: extending <code>momepy</code> to R users (R wrapper)</li>
-<li><strong><code>mome(.rs)</code></strong>: cross-language infrastructure for urban morphometrics (low-level implementation in Rust)</li>
-</ul>
 </section>
 <section class="slide level2">
 
 <h3 id="momer-extending-momepy-to-r-users-wrapper"><code>momer</code>: extending <code>momepy</code> to R users (wrapper)</h3>
 <div>
 <ul>
-<li class="fragment">Why:
+<li class="fragment">Why?
 <ul>
-<li class="fragment">the potential of <code>momepy</code> reaches beyond Python, and its adoption in the broader scientific community and practice could be significantly enhanced by integrating it with R</li>
-<li class="fragment">can activate a cross-language morphometrics community in preparation for low-level cross-language infrastructure (see <a href="#/momers"><code>mome(rs)</code></a>)</li>
+<li class="fragment">The potential of <code>momepy</code> reaches beyond Python, and its adoption in the broader scientific community and practice could be significantly enhanced by integrating it with R.</li>
+<li class="fragment">It can activate a cross-language morphometrics community in preparation for low-level cross-language infrastructure (see <a href="#/momers"><code>mome(.rs)</code></a>)</li>
 </ul></li>
-<li class="fragment">What:
+<li class="fragment">What?
 <ul>
-<li class="fragment">An R package wrapping <code>momepy</code> with <code>reticulate</code> in an <code>sf</code>-compatible way and with mirrored documentation.</li>
+<li class="fragment">An R package wrapping <code>momepy</code> with <code>reticulate</code> in an <code>sf</code>-compatible way and with synchronised documentation.</li>
 </ul></li>
 </ul>
 </div>
@@ -232,12 +208,14 @@ Elviss Dvinskis
 <div>
 <ul>
 <li class="fragment"><a href="https://r-consortium.org/all-projects/callforproposals.html">ISC grant</a> proposal to be submitted before 1 October</li>
-<li class="fragment"><a href="https://cforgaci.github.io/momer/isc-proposal.pdf">Proposal drafted</a> and requesting budget for 1-year max. 0,4FTE funding of RSE time.</li>
-<li class="fragment">We are seeking feedback and support:
+<li class="fragment"><a href="https://cforgaci.github.io/momer/isc-proposal.pdf">Proposal drafted</a> and requesting funding for 1-year max. 0,4FTE funding of RSE time</li>
+<li class="fragment"><a href="https://www.tudelft.nl/en/digital-competence-centre/team/elviss-dvinskis">Elviss Dvinskis</a> form the TU Delft Digital Competence Center committed to carry out the RSE work</li>
+<li class="fragment"><strong>We are seeking</strong>:
 <ul>
-<li class="fragment">Community support: Rbanism ✅, r-spatial ❓, geocompr ❓, ISUF ❓, and SDSL ❓ communities</li>
-<li class="fragment">Feedback on the proposal</li>
-<li class="fragment">Feedback from ISC</li>
+<li class="fragment">👍 Community support (confirming impact and committing to promote) from <a href="https://rbanism.org">Rbanism</a> ✅, <a href="https://r-spatial.org/">r-spatial</a> ❓, <a href="https://r.geocompx.org/">geocompr</a> ❓, <a href="https://spatial-data-science.github.io/">SDSL</a> ❓<span class="fragment">, <span style="color: red;"><strong>…</strong></span></span></li>
+<li class="fragment">💡 Feedback on the proposal</li>
+<li class="fragment">👉 Consultation from ISC member</li>
+<li class="fragment">🛠️ Contributing to development</li>
 </ul></li>
 </ul>
 </div>
@@ -245,68 +223,147 @@ Elviss Dvinskis
 <section class="slide level2">
 
 <h3 id="mome.rs-or-simply-mome-cross-language-infrastructure-for-urban-morphometrics"><code>mome.rs</code> (or simply <code>mome</code>): cross-language infrastructure for urban morphometrics</h3>
-<div class="callout callout-none no-icon callout-style-simple">
-<div class="callout-body">
-<div class="callout-content">
-<p>The OEC project can be still called <code>momex</code>, but we should align as much as possible.</p>
-</div>
-</div>
-</div>
 <div>
 <ul>
 <li class="fragment">Why?
 <ul>
 <li class="fragment">To enable the broader scientific community and practice to conduct morphological analyses in a scalable way.</li>
-<li class="fragment">Developers benefit from a low-level code base that is easily maintainable and serves multiple languages.</li>
+<li class="fragment">To provide developers a shared low-level code base that is easily maintainable and serves multiple languages.</li>
 </ul></li>
 <li class="fragment">What?
 <ul>
-<li class="fragment">A Rust crate implementing core urban morphometric functions and algorithms, building on existing infrastructure (e.g., GeoRust, polars), with bindings for <code>momepy</code>, <code>momer</code><span class="fragment">, <code>mome.jl</code>, etc.</span></li>
+<li class="fragment">A Rust crate (or more) implementing core urban morphometric functions and algorithms, building on existing infrastructure (e.g., <code>GeoRust</code>, <code>polars</code>), with bindings for <code>momepy</code>, <code>momer</code><span class="fragment">, <code>mome.jl</code>, etc.</span></li>
 </ul></li>
 </ul>
 </div>
 </section>
 <section class="slide level2">
 
-<h3 id="momers"><code>momers</code> (or simply <code>mome</code>): cross-language infrastructure for urban morphometrics</h3>
+<h3 id="momers"><code>mome.rs</code> (or simply <code>mome</code>): cross-language infrastructure for urban morphometrics</h3>
+<div>
 <ul>
-<li><a href="https://www.esciencecenter.nl/calls-for-proposals/open-escience-call-oec-2025/">OEC2025</a> proposal to be submitted before 13 October</li>
-<li>Proposal work in progress by <a href="https://3d.bk.tudelft.nl/hledoux/">Hugo Ledoux</a>, <a href="https://urbandesigntudelft.nl/team/claudiu-forgaci/">Claudiu Forgaci</a> and <a href="https://research.utwente.nl/en/persons/jiong-wang">Jiong Wang</a></li>
-<li>Seeking: community support and international co-applicants, possibly with a scientific case</li>
+<li class="fragment"><a href="https://www.esciencecenter.nl/calls-for-proposals/open-escience-call-oec-2025/">OEC2025</a> proposal to be submitted before 13 October</li>
+<li class="fragment">Proposal work in progress by <a href="https://3d.bk.tudelft.nl/hledoux/">Hugo Ledoux</a>, <a href="https://urbandesigntudelft.nl/team/claudiu-forgaci/">Claudiu Forgaci</a> and <a href="https://research.utwente.nl/en/persons/jiong-wang">Jiong Wang</a></li>
+<li class="fragment"><strong>We are seeking</strong>:
+<ul>
+<li class="fragment">👊 Community support (confirming relevance, importance and impact)</li>
+<li class="fragment">🫵 International co-applicants</li>
+<li class="fragment">🛠️ Contributing to development</li>
+<li class="fragment">📌 Proposing a scientific case</li>
+</ul></li>
 </ul>
-<div class="callout callout-none no-icon callout-style-simple">
-<div class="callout-body">
-<div class="callout-content">
-<p>testing, some time commitment (1-2 hours per week?), no money, acknowledge that it is important for you.</p>
 </div>
-</div>
-</div>
+<aside class="notes">
+<p>Being involved as co-applicant entails some time commitment (1-2 hours per week), no money, acknowledge that it is important for you.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="two-scientific-cases" class="slide level2">
-<h2>Two scientific cases</h2>
+<section id="scientific-cases" class="slide level2 smaller">
+<h2>Scientific cases</h2>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="4">
+<div class="quarto-layout-row">
+<div class="{div} quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><img data-src="img/case-hugo.webp"></p>
 <ol type="1">
-<li><p>Morphology-based procedural city generation (building on <a href="https://resolver.tudelft.nl/uuid:d6dc629c-c75e-4578-b1a1-8ac741133751">Post 2024</a>) for applications that can benefit from synthetic morphological data.</p></li>
-<li><p>Global morpho-typology of urban river spaces (building on <a href="https://www.isuf2025.org/wp-content/uploads/2025/07/book_of_abstract_15-07-2025.pdf#page=89">Forgaci et al.&nbsp;2025</a>). <!-- TODO one sentence description of the scientific challenge for speaker notes --></p></li>
-<li><p><em>Case from Jon to be added</em></p></li>
+<li>Morphology-based procedural city generation (building on <a href="https://resolver.tudelft.nl/uuid:d6dc629c-c75e-4578-b1a1-8ac741133751">Post 2024</a>)</li>
 </ol>
-<div class="callout callout-none no-icon callout-style-simple">
-<div class="callout-body">
-<div class="callout-content">
-<p>A case by Jon Wang? To be explored during the meeting on 16 Sep.</p>
 </div>
+<div class="{div} quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><img data-src="img/case-claudiu.webp"></p>
+<ol start="2" type="1">
+<li>Global morpho-typology of urban river spaces (building on <a href="https://www.isuf2025.org/wp-content/uploads/2025/07/book_of_abstract_15-07-2025.pdf#page=89">Forgaci et al.&nbsp;2025</a>) <!-- TODO one sentence description of the scientific challenge for speaker notes --></li>
+</ol>
 </div>
+<div class="{div} quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><img data-src="img/case-jon.webp"></p>
+<ol start="3" type="1">
+<li>Environment and climate informed urban morphological characteristics</li>
+</ol>
 </div>
+<div class="{div} quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><img data-src="img/blank.webp"></p>
 <ol start="4" type="1">
 <li>Do you have another case?</li>
 </ol>
+</div>
+</div>
+</div>
 </section>
 <section id="join-the-momex-team" class="slide level2">
 <h2>Join the <code>momex</code> team</h2>
-<p>Claudiu, Hugo, Jon, RSE from DCC + invitation to SDSL members to join</p>
-<div class="callout callout-none no-icon callout-style-simple">
-<div class="callout-body">
-<div class="callout-content">
-<p>I will add a few “undefined” team members on the slide in a random position to highlight that others can join in any role and position.</p>
+<div>
+
+</div>
+<div class="caption quarto-layout-panel" data-layout-ncol="5">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
+<p><img data-src="img/blank.webp"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
+<p><img data-src="img/blank.webp"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/claudiu.webp"></p>
+<figcaption>Claudiu Forgaci</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/elviss.webp"></p>
+<figcaption>Elviss Dvinskis</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
+<p><img data-src="img/blank.webp"></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
+<p><img data-src="img/blank.webp"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/hugo.webp"></p>
+<figcaption>Hugo Ledoux</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
+<p><img data-src="img/blank.webp"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/jon.webp"></p>
+<figcaption>Jiong Wang</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
+<p><img data-src="img/blank.webp"></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
+<p><img data-src="img/blank-white.webp"></p>
 </div>
 </div>
 </div>
