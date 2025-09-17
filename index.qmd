@@ -68,17 +68,35 @@ include-in-header:
 
 ## What is `momex`?
 
+:::: {.columns}
+
+::: {.column width="60%"}
+
 ::: {.incremental}
 
 * Idea after SDSL 2024: why not build a cross-language infrastructure on `momepy`?
-* Considered wrapping, porting and low-level implementation approach
-
-* Two proposals:
-  1. **`momer`**: extending `momepy` to R users (R wrapper)
-  2. **`mome(.rs)`**: cross-language infrastructure for urban morphometrics (low-level implementation in Rust)
+* Considered wrapping, porting and low-level implementation approaches
 
 :::
 
+:::
+
+::: {.column width="40%"}
+
+![](img/logo.png){.absolute top=100 right=-50 width="450" .fragment .fade-in data-fragment-index=1}
+
+:::
+
+:::
+
+::: {.incremental}
+
+* Two proposals:
+  * **`momer`**: extending `momepy` to R users (R wrapper)
+  * **`mome(.rs)`**: cross-language infrastructure for urban morphometrics (low-level implementation in Rust)
+
+:::
+  
 ---
 
 ### `momer`: extending `momepy` to R users (wrapper)
@@ -101,9 +119,9 @@ include-in-header:
 ::: {.incremental}
 
 * [ISC grant](https://r-consortium.org/all-projects/callforproposals.html) proposal to be submitted before 1 October
-* [Proposal drafted](https://cforgaci.github.io/momer/isc-proposal.pdf) and requesting funding for 1-year max. 0,4FTE funding of RSE time
+* [Proposal drafted](https://cforgaci.github.io/momer/isc-proposal.pdf) (read it at **edu.nl/y7y6m**) and requesting funding for 1-year max. 0,4FTE funding of RSE time
 * [Elviss Dvinskis](https://www.tudelft.nl/en/digital-competence-centre/team/elviss-dvinskis) form the TU Delft Digital Competence Center committed to carry out the RSE work
-* **We are seeking**:
+* We are seeking:
   * 👍 Community support (confirming impact and committing to promote) from [Rbanism](https://rbanism.org) &#9989;, [r-spatial](https://r-spatial.org/) &#x2753;, [geocompr](https://r.geocompx.org/) &#x2753;, [SDSL](https://spatial-data-science.github.io/) &#x2753;<span class="fragment">, <span style="color: red;">**...**</span></span>
   * 💡 Feedback on the proposal
   * 👉 Consultation from ISC member
@@ -133,7 +151,7 @@ include-in-header:
 
 * [OEC2025](https://www.esciencecenter.nl/calls-for-proposals/open-escience-call-oec-2025/) proposal to be submitted before 13 October
 * Proposal work in progress by [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/) (lead applicant), [Claudiu Forgaci](https://urbandesigntudelft.nl/team/claudiu-forgaci/) and [Jiong Wang](https://research.utwente.nl/en/persons/jiong-wang)
-* **We are seeking**:
+* We are seeking:
   * 👊 Community support (confirming importance, feasibility and impact)
   * 🫵 International co-applicants
   * 🛠️ Contributing to development
