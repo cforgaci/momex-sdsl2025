@@ -119,7 +119,7 @@ include-in-header:
 ::: {.incremental}
 
 * [ISC grant](https://r-consortium.org/all-projects/callforproposals.html) proposal to be submitted before 1 October
-* [Proposal drafted](https://cforgaci.github.io/momer/isc-proposal.pdf) (read it at **edu.nl/y7y6m**) and requesting funding for 1-year max. 0,4FTE funding of RSE time
+* [Proposal drafted](https://cforgaci.github.io/momer/isc-proposal.pdf) and requesting funding for 1-year max. 0,4FTE funding of RSE time
 * [Elviss Dvinskis](https://www.tudelft.nl/en/digital-competence-centre/team/elviss-dvinskis) form the TU Delft Digital Competence Center committed to carry out the RSE work
 * We are seeking:
   * 👍 Community support (confirming impact and committing to promote) from [Rbanism](https://rbanism.org) &#9989;, [r-spatial](https://r-spatial.org/) &#x2753;, [geocompr](https://r.geocompx.org/) &#x2753;, [SDSL](https://spatial-data-science.github.io/) &#x2753;<span class="fragment">, <span style="color: red;">**...**</span></span>
